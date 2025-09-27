@@ -60,7 +60,7 @@ for r, row in enumerate(buttons):
             tk.Button(btns_frame, text=btn, width=5, height=2, font=('Arial', 18),
                       command=equal).grid(row=r, column=c, padx=5, pady=5)
         elif btn == 'C':
-            tk.Button(btns_frame, text=btn, width=22, height=2, font=('Arial', 18),
+            tk.Button(btns_frame, text=btn, width=32, height=2, font=('Arial', 18),
                       command=clear).grid(row=r, column=0, columnspan=4, padx=5, pady=5)
         else:
             tk.Button(btns_frame, text=btn, width=5, height=2, font=('Arial', 18),
